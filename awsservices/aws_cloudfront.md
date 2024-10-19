@@ -4,9 +4,7 @@ CloudFront:
   colorFreezeLevel: 2
 ---
 
-
-
-## Core Concept:
+## Core Concept
 - Fast content delivery network (CDN)
 - Global Distribution
 - Securely delivers data, videos, applications, and APIs globally
@@ -24,7 +22,7 @@ CloudFront:
 - AWS WAF: Protects against web exploits
 - Amazon Route 53: DNS service for routing traffic to CloudFront
 
-## Configuration:
+## Configuration
 
 - Origin: The source of the content
    - ec2 instance
@@ -33,7 +31,7 @@ CloudFront:
 - Distribution: The configuration that specifies how content is delivered
 - Cache Behaviors: Rules that control how content is cached and served
 
-## Monitoring and Logging:
+## Monitoring and Logging
 - CloudWatch: Monitors performance and usage
 - Access Logs: Records requests and responses for analysis
 
@@ -42,8 +40,8 @@ CloudFront:
  - Price Class 100
  - Price Class 200
 
- ## Use Cases:
-
+ ## Use Cases
+ 
 - Website Acceleration: Speeds up the delivery of websites
 - Video Streaming: Delivers high-quality video content
 - Application Delivery: Distributes web applications and APIs
