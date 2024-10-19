@@ -25,16 +25,31 @@ S3:
 - Lifecycle policies
 - Versioning
 - Replication
-- Object Lock
+- S3 Object Lock
+    - Retention mode - Compliance
+    - Retention mode - Governance
+    - Legal Hold
+- Glaciar Vault Lock
 
 
 ## Security & Access Control
-
+### Access Control
 - IAM policies
 - Bucket policies
 - Access Control Lists (ACLs)
-- Encryption (SSE-S3, SSE-KMS, SSE-C)
-- VPC endpoints
+- Multi-Factor Authentication(MFA) for deletions
+- S3 CORS
+- S3 Access Logs
+- S3 Access Points
+    - S3 Object Lamba Access 
+### Encryption 
+- Server Side Encryption(SSE) with Amazon S3 managed keys(SSE-S3)
+- Server Side Encryption(SSE) with Customer-provided keys(SSE-C)
+- Server Side Encryption(SSE) with Key Management Service(SSE-KSM)
+- Client-Side Encryption
+- Encryption in Transit 
+
+
 
 ## Performance & Scalability
 
