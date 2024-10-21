@@ -1,11 +1,14 @@
 # **Amazon SNS (Simple Notification Service)**
 
 ## **Core Concepts**
-- **Topics**
-  - Standard Topics
-  - FIFO Topics
+- **Topics(100K)**
+  - **Standard Topics**
+  - **FIFO Topics**
+     - Ordering 
+     - Deduplication
+     - Limited Throughput
 - **Publishers**
-- **Subscribers**
+- **Subscribers(12Million+)**
 - **Messages**
 
 ## **Supported Protocols**
@@ -30,6 +33,7 @@
 - **Encryption in Transit (SSL/TLS)**
 - **IAM for Access Control**
 - **VPC Endpoints**
+- **Access Policy**
 
 ## **Monitoring and Logging**
 - **Amazon CloudWatch Metrics**
